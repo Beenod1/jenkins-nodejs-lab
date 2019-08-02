@@ -1,5 +1,5 @@
 #!/bin/sh
-
+echo "hello World"
 ssh app@ip-172-31-32-71 <<EOF
   cd ~/jenkins-nodejs-lab
   git pull
